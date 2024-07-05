@@ -1,5 +1,5 @@
-import data from "../data/data";
-// const resdata = data[0];
+import data from "./data/data";
+
 export function GET() {
   return new Response(JSON.stringify({ data }));
 }
